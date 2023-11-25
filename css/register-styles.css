@@ -1,0 +1,360 @@
+* {
+    font-size: 10px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* register-PAGE-STARTS  */
+
+body {
+    background: linear-gradient(180deg, rgba(0, 4, 40, 0.89) 1.59%, rgba(0, 78, 146, 0.89) 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: -moz-hidden-unscrollable;
+}
+
+.container-login {
+    background-color: #D9D9D9;
+    border-radius: 1.875rem;
+    width: 30vw;
+    height: 95vh;
+    max-width: 400px;
+    max-height: 770px;
+    min-width: 30px;
+    min-height: 630px;
+    margin: 0 auto;
+    box-shadow: 2vw 2vw 3vw 1.5vw rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.register-heading {
+    padding: 5px 10px;
+}
+
+.register-svg-text {
+    margin-left: -25px;
+    margin-top: 1rem;
+}
+
+.listbox {
+    width: 87%;
+    height: 17%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 9px;
+
+}
+
+
+.listbox label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.listbox option {
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 10px;
+}
+
+.listbox select {
+    width: 100%;
+    height: 63%;
+    border-radius: 10px;
+    border: 3px solid rgba(0, 78, 146, 0.89);
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 10px;
+}
+
+.listbox select:focus {
+    outline: none;
+}
+
+.register-email,
+.register-email-password,
+.confirm-password {
+    width: 87%;
+    height: 16%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2px 10px;
+}
+
+.register-email input,
+.register-email-password input,
+.confirm-password input {
+    border-radius: 10px;
+    border: 3px solid rgba(0, 78, 146, 0.89);
+    height: 65%;
+    width: 100%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0px 10px;
+}
+
+.register-email input,
+.register-email-password input:focus,
+.confirm-password input {
+    outline: none;
+}
+
+
+
+/* exit-email-id-lable */
+
+.exist-email {
+
+    margin-top: -3px;
+    width: 80%;
+
+}
+
+.exist-email label {
+    color: #EA4335;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+    width: 100%;
+    float: right;
+
+}
+
+/* End */
+
+
+/* IF WRONG PASSWORD ERROR */
+
+.confirm-password input {
+    border: 3px solid #EA4335;
+}
+
+/*  END  */
+
+.register-email label,
+.register-email-password label,
+.confirm-password label {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.register-email-id {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: -0.9rem;
+}
+
+/* ERROR-Doesnt match */
+.password-doesnt-match {
+    margin-top: -3px;
+    width: 80%;
+}
+
+.password-doesnt-match label {
+    color: #EA4335;
+    font-family: Poppins;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+    width: 100%;
+    float: right;
+}
+
+/* end */
+
+/* IF WRONG PASSWORD ERROR */
+
+.register-email input {
+    border: 3px solid #EA4335;
+}
+
+/*  END  */
+
+.forget-password {
+    margin-top: 15px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.forget-password a {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.forget-password a:hover {
+    color: #004E92;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 18%;
+    width: 87%;
+
+}
+
+.login-button button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #004E92;
+    height: 49%;
+    width: 93%;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.login-button button:hover {
+    cursor: pointer;
+    background: #4b93d1;
+}
+
+.login-or {
+    display: flex;
+    flex-direction: row;
+    width: 87%;
+    height: 3%;
+    margin-left: 25px;
+}
+
+.login-or div {
+    width: 41%;
+    height: 2%;
+    background-color: rgb(0, 0, 0);
+    margin-top: 7.5px;
+}
+
+.login-or p {
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 11px;
+}
+
+.google-login-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 11%;
+    width: 87%;
+    margin-bottom: 23px;
+
+}
+
+.google-login-button button {
+    padding: 10px 10px;
+    border-radius: 10px;
+    background: #000000;
+    height: 80%;
+    width: 93%;
+    border: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login-button button:hover {
+    cursor: pointer;
+    background-color: #575757;
+}
+
+.google-icon {
+    width: 13%;
+}
+
+.new-register {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.new-register p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.new-register a {
+    color: #000;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-style: none;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.new-register a:hover {
+    color: #004E92;
+}
+
+@media screen and (max-width: 1100px) {
+    .container-login {
+        width: 90vw;
+        height: 70vh;
+
+    }
+}
