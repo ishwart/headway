@@ -255,6 +255,7 @@ body {
 .login-button button:hover {
     cursor: pointer;
     background: #4b93d1;
+    transition: 0.3s
 }
 
 .login-or {
@@ -307,11 +308,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .google-login-button button:hover {
     cursor: pointer;
     background-color: #575757;
+    transition: 0.3s
 }
 
 .google-icon {
