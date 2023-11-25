@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .container-login {
@@ -263,5 +264,8 @@ body {
     .container-login {
         width: 90vw;
         height: 70vh;
+        margin-top: -10rem;
+        overflow: hidden;
+
     }
 }
