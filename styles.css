@@ -101,6 +101,8 @@
     margin-top: -0.9rem;
 }
 
+/* Wrong-password-lable */
+
 .wrong-password label {
     color: #EA4335;
     font-family: Poppins;
@@ -111,6 +113,8 @@
     text-align: right;
     width: 100%;
 }
+
+/* End */
 
 
 
