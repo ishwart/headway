@@ -21,7 +21,7 @@ body {
 .main-container {
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 1.875rem;
-    width: 60vw;
+    width: 90vw;
     height: 80vh;
     max-width: 800px;
     max-height: 530px;
@@ -58,18 +58,24 @@ body {
 }
 
 .logo-heading {
-    padding: 40px 10px;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 90%;
-    height: 20%;
-    margin-left: 2rem;
+    width: 80%;
+    height: 15%;
+    margin-top: 2rem;
+    padding: 20px 0px;
 }
 
-.company-header {
-    height: 5%;
-    margin-left: 20%;
 
+
+.company-header {
+    height: 5rem;
+
+}
+
+.logo {
+    height: 5rem;
 }
 
 .company-header h1 {
@@ -81,10 +87,10 @@ body {
     line-height: normal;
 }
 
-.svg-text {
-    margin-left: 0px;
-    margin-top: 0rem;
-}
+.svg-text {}
+
+
+
 
 .details-input-boxs {
     width: 90%;
@@ -117,8 +123,8 @@ body {
 
 .required {
     color: red;
-    margin-top: 10px;
     font-size: 17px;
+    margin-left: 0.3rem;
 }
 
 
@@ -209,18 +215,9 @@ form {
     .main-container {
         width: 90vw;
         height: 80vh;
+        margin-top: -10px;
     }
 
-    .company-header h1 {
-        color: #A6A6A6;
-        font-family: Poppins;
-        font-size: 3rem;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        height: 80%;
-        width: 100%;
-    }
 
 
 }
@@ -241,41 +238,18 @@ form {
         width: 90vw;
         height: 100vh;
         min-height: 750px;
-        margin-top: 10px;
+        margin-top: -10px;
 
     }
 
 
     .svg-logo {
-        margin-top: -1.8rem;
-        margin-left: 1rem;
-        width: 35px;
+        width: 50px;
 
     }
 
     .svg-text {
-        width: 190px;
-        height: 30px;
-        margin-left: -5rem;
-        margin-top: -0.8rem;
-    }
-
-
-
-
-    .logo-heading {
-        padding: 40px 10px;
-        display: flex;
-        flex-direction: row;
-        width: 95%;
-        height: 10%;
-    }
-
-    .company-header {
-        height: 5%;
-        background-color: red;
-        margin-left: 0rem;
-
+        width: 110px;
     }
 
 
@@ -283,13 +257,12 @@ form {
     .company-header h1 {
         color: #A6A6A6;
         font-family: Poppins;
-        font-size: 110%;
+        font-size: 115%;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-
+        margin-top: 20px;
     }
-
 
     .details-container {
         display: flex;
@@ -322,7 +295,6 @@ form {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
         margin-top: -15px;
 
 
