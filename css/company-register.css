@@ -170,7 +170,7 @@ body {
 
 input[type="file"] {
     display: none;
-    font-size: 14px;
+    font-size: 126%;
     font-weight: 900;
 }
 
@@ -223,12 +223,6 @@ form {
     }
 
 
-    input[type="file"] {
-        display: none;
-        font-size: 12px;
-    }
-
-
 }
 
 form {
@@ -247,6 +241,7 @@ form {
         width: 90vw;
         height: 100vh;
         min-height: 750px;
+        margin-top: 10px;
 
     }
 
@@ -333,10 +328,6 @@ form {
 
     }
 
-    input[type="file"] {
-        display: none;
-        font-size: 13px;
-    }
 
     .finish-button {
         display: flex;
