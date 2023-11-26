@@ -16,16 +16,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
-.container-login {
-    background-color: #D9D9D9;
+.main-container {
+    background-color: rgba(0, 0, 0, 0.80);
     border-radius: 1.875rem;
     width: 60vw;
     height: 80vh;
     max-width: 800px;
-    max-height: 570px;
+    max-height: 530px;
     min-width: 30px;
     min-height: 430px;
     margin: 0 auto;
@@ -35,12 +34,12 @@ body {
     flex-direction: column;
 }
 
-.company-details-container {
+.details-container {
     display: flex;
     align-items: center;
     flex-direction: row;
     width: 100%;
-    height: 60%;
+    height: 75%;
     justify-content: space-around;
     padding: 0rem 2rem;
 }
@@ -49,38 +48,45 @@ body {
 .right-part {
     height: 90%;
     width: 50%;
-    padding-left: 1.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
-.register-heading {
+.logo-heading {
     padding: 40px 10px;
     display: flex;
     flex-direction: row;
     width: 90%;
     height: 20%;
+    margin-left: 2rem;
 }
 
 .company-header {
-    height: 5rem;
-    margin-left: 19rem;
+    height: 5%;
+    margin-left: 20%;
 
 }
 
 .company-header h1 {
     color: #A6A6A6;
     font-family: Poppins;
-    font-size: 3.75rem;
+    font-size: 375%;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
 
-.register-svg-text {
-    margin-left: -15px;
+.svg-text {
+    margin-left: 0px;
     margin-top: 0rem;
 }
 
-.register-email {
+.details-input-boxs {
     width: 90%;
     height: 23%;
     display: flex;
@@ -89,22 +95,22 @@ body {
     padding: 2px 10px;
 }
 
-.register-email input {
+.details-input-boxs input {
     border-radius: 6px;
     border: 2px solid rgba(0, 78, 146, 0.89);
     background: transparent;
     height: 65%;
     width: 100%;
-    color: #000;
+    color: #FFF;
     font-family: Poppins;
     font-size: 15px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     padding: 0px 10px;
 }
 
-.register-email input {
+.details-input-boxs input {
     outline: none;
 }
 
@@ -116,36 +122,9 @@ body {
 }
 
 
-
-/* exit-email-id-lable */
-
-.exist-email {
-
-    margin-top: -3px;
-    width: 80%;
-
-}
-
-.exist-email label {
-    color: #EA4335;
-    font-family: Poppins;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-align: right;
-    width: 100%;
-    float: right;
-
-}
-
-/* End */
-
-
-
-
-.register-email label {
-    color: #000;
+.details-input-boxs label {
+    color: #FFF;
+    ;
     font-family: Poppins;
     font-size: 12px;
     font-style: normal;
@@ -153,44 +132,24 @@ body {
     line-height: normal;
 }
 
-.register-email-id {
+.details-input-boxs-id {
     display: flex;
     align-items: center;
     width: 80%;
     margin-top: -0.9rem;
 }
 
-/* ERROR-Doesnt match */
-.password-doesnt-match {
-    margin-top: -3px;
-    width: 80%;
-}
-
-.password-doesnt-match label {
-    color: #EA4335;
-    font-family: Poppins;
-    font-size: 9px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    text-align: right;
-    width: 100%;
-    float: right;
-}
-
-/* end */
-
-.login-button {
+.finish-button {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 13%;
+    height: 16%;
     width: 18%;
 
 }
 
-.login-button input {
+.finish-button input {
     padding: 10px 10px;
     border-radius: 7px;
     background: #004E92;
@@ -212,6 +171,7 @@ body {
 input[type="file"] {
     display: none;
     font-size: 14px;
+    font-weight: 900;
 }
 
 #upload-file {
@@ -221,54 +181,181 @@ input[type="file"] {
     cursor: pointer;
     border: 2px solid rgba(0, 78, 146, 0.89);
     border-radius: 7px;
+
 }
 
-.login-button input:hover {
+
+.finish-button input:hover {
     cursor: pointer;
     background: #4b93d1;
     transition: 0.3s
 }
 
 
-.new-register {
-    flex-direction: row;
+form {
+    width: 100%;
+    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin-bottom: 22px;
+    flex-direction: column;
+    align-items: center;
 }
 
-.new-register p {
-    color: #000;
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
-.new-register a {
-    color: #000;
-    font-family: Poppins;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    font-style: none;
-    text-decoration: none;
-    margin-left: 5px;
-}
 
-.new-register a:hover {
-    color: #004E92;
-}
+@media screen and (max-width: 1028px) {
 
-@media screen and (max-width: 1100px) {
-    .container-login {
+
+    .main-container {
         width: 90vw;
-        height: 70vh;
-        margin-top: -10rem;
+        height: 80vh;
     }
 
+    .company-header h1 {
+        color: #A6A6A6;
+        font-family: Poppins;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        height: 80%;
+        width: 100%;
+    }
+
+
+    input[type="file"] {
+        display: none;
+        font-size: 12px;
+    }
+
+
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 724px) {
+
+    .main-container {
+        width: 90vw;
+        height: 100vh;
+        min-height: 750px;
+
+    }
+
+
+    .svg-logo {
+        margin-top: -1.8rem;
+        margin-left: 1rem;
+        width: 35px;
+
+    }
+
+    .svg-text {
+        width: 190px;
+        height: 30px;
+        margin-left: -5rem;
+        margin-top: -0.8rem;
+    }
+
+
+
+
+    .logo-heading {
+        padding: 40px 10px;
+        display: flex;
+        flex-direction: row;
+        width: 95%;
+        height: 10%;
+    }
+
+    .company-header {
+        height: 5%;
+        background-color: red;
+        margin-left: 0rem;
+
+    }
+
+
+
+    .company-header h1 {
+        color: #A6A6A6;
+        font-family: Poppins;
+        font-size: 110%;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+
+    .details-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 0rem 0rem;
+    }
+
+    .left-part {
+        height: 90%;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: -13px;
+
+    }
+
+    .right-part {
+        height: 90%;
+        width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        margin-top: -15px;
+
+
+    }
+
+    input[type="file"] {
+        display: none;
+        font-size: 13px;
+    }
+
+    .finish-button {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 15%;
+        width: 28%;
+        padding-bottom: 1.9rem;
+
+    }
+
+    form {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
