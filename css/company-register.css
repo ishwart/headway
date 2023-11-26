@@ -61,10 +61,10 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 85%;
     height: 15%;
     margin-top: 2rem;
-    padding: 20px 55px;
+    padding: 20px 0px;
 }
 
 
@@ -262,15 +262,23 @@ form {
     }
 
 
+    .logo-heading {
+        width: 80%;
+    }
+
+    .company-header {
+        width: 30%;
+
+    }
 
     .company-header h1 {
         color: #A6A6A6;
         font-family: Poppins;
-        font-size: 115%;
+        font-size: 140%;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        margin-top: 20px;
+        margin-top: 0px;
     }
 
     .details-container {
