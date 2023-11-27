@@ -367,6 +367,7 @@ form {
     }
 
     .student-header h1 {
+        /* white-space: nowrap; */
         color: #A6A6A6;
         font-family: Poppins;
         font-size: 140%;
