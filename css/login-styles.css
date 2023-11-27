@@ -367,7 +367,7 @@
     }
 
     .content-loaded .loading-logo {
-        transform: translateY(-29rem) scale(80%);
+        transform: translateY(-29rem) scale(70%);
 
     }
 }
