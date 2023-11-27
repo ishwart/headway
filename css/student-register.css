@@ -7,8 +7,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* register-PAGE-STARTS  */
-
 body {
     background: linear-gradient(180deg, rgba(0, 4, 40, 0.89) 1.59%, rgba(0, 78, 146, 0.89) 100%);
     height: 100vh;
@@ -22,11 +20,11 @@ body {
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 1.875rem;
     width: 90vw;
-    height: 80vh;
+    height: 90vh;
     max-width: 800px;
-    max-height: 530px;
+    max-height: 630px;
     min-width: 30px;
-    min-height: 430px;
+    min-height: 530px;
     margin: 0 auto;
     box-shadow: 2vw 2vw 3vw 1.5vw rgba(0, 0, 0, 0.25);
     display: flex;
@@ -44,9 +42,8 @@ body {
     padding: 0rem 2rem;
 }
 
-.left-part,
-.right-part {
-    height: 90%;
+.left-part {
+    height: 95%;
     width: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -55,6 +52,17 @@ body {
     justify-content: center;
     flex-direction: column;
 
+}
+
+.right-part {
+    height: 95%;
+    width: 50%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .logo-heading {
@@ -69,7 +77,7 @@ body {
 
 
 
-.company-header {
+.student-header {
     height: 5rem;
 
 }
@@ -78,7 +86,7 @@ body {
     height: 5rem;
 }
 
-.company-header h1 {
+.student-header h1 {
     color: #A6A6A6;
     font-family: Poppins;
     font-size: 375%;
@@ -121,6 +129,60 @@ body {
 }
 
 
+#skills {
+    height: 42%;
+    margin-top: 1.2rem;
+
+}
+
+#skills input {
+    height: 100%;
+}
+
+#skills label {
+    margin-top: -0.8rem;
+}
+
+#year-completion {
+    background-color: rgb(0, 68, 255);
+    height: 10%;
+}
+
+#year-completion label {}
+
+#degree {
+    border-radius: 6px;
+    border: 2px solid rgba(0, 78, 146, 0.89);
+    background: transparent;
+    height: 65%;
+    width: 100%;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 15px;
+}
+
+#degree option {
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: rgba(0, 78, 146, 0.89);
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
 .required {
     color: red;
     font-size: 17px;
@@ -150,7 +212,7 @@ body {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 16%;
+    height: 15%;
     width: 18%;
 
 }
@@ -169,7 +231,6 @@ body {
     font-weight: 500;
     line-height: normal;
 }
-
 
 #upload-file {
     display: none;
@@ -248,7 +309,7 @@ form {
         margin-top: -10px;
     }
 
-    .company-header h1 {
+    .student-header h1 {
         color: #A6A6A6;
         font-family: Poppins;
         font-size: 215%;
@@ -271,16 +332,20 @@ form {
 }
 
 
-@media screen and (max-width: 724px) {
+@media (max-width:600px) {
 
     .main-container {
-        width: 90vw;
-        height: 100vh;
-        min-height: 750px;
-        margin-top: -110px;
+        width: 90%;
+        height: 80%;
+        min-height: 90%;
+        margin-top: -10%;
 
     }
 
+
+    body {
+        height: 120vh;
+    }
 
     .svg-logo {
         width: 50px;
@@ -296,12 +361,12 @@ form {
         width: 80%;
     }
 
-    .company-header {
+    .student-header {
         width: 30%;
 
     }
 
-    .company-header h1 {
+    .student-header h1 {
         color: #A6A6A6;
         font-family: Poppins;
         font-size: 140%;
@@ -321,7 +386,7 @@ form {
     }
 
     .left-part {
-        height: 90%;
+        height: 95%;
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -334,7 +399,7 @@ form {
     }
 
     .right-part {
-        height: 90%;
+        height: 95%;
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -342,7 +407,7 @@ form {
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        margin-top: -15px;
+        margin-top: 20px;
 
 
     }
@@ -353,7 +418,7 @@ form {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 15%;
+        height: 13%;
         width: 28%;
         padding-bottom: 1.9rem;
 
