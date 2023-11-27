@@ -17,44 +17,18 @@
     overflow: none;
 }
 
-.loading-page {
-    width: 100%;
-    height: 120%;
-    background-color: #ffffff;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    opacity: 1;
-    transition: background-color 0.5s ease;
 
-}
 
-.content-loaded .loading-page {
-    background-color: transparent;
-    pointer-events: none;
-}
-
-.loading-logo {
-    width: 40%;
-    transform: translateY(0);
-    transition: transform 0.5s ease;
-}
-
-.content-loaded .loading-logo {
-    transform: translateY(-21rem) scale(55%);
-
-}
 
 .container-login {
     background-color: #D9D9D9;
     border-radius: 1.875rem;
     width: 30vw;
-    height: 90vh;
+    height: 95vh;
     max-width: 400px;
-    max-height: 550px;
-    min-width: 30px;
-    min-height: 500px;
+    max-height: 570px;
+    min-width: 150px;
+    min-height: 600px;
     margin: 0 auto;
     padding: 10px;
     box-shadow: 2vw 2vw 3vw 1.5vw rgba(0, 0, 0, 0.25);
@@ -63,12 +37,12 @@
     flex-direction: column;
 }
 
-.login-heading {
 
-    height: 19%;
-    width: 90%;
+.logo {
+    width: 75%;
+    margin-top: 5%;
+    padding: 10px 30px;
 }
-
 
 .login-email,
 .login-email-password {
@@ -290,53 +264,14 @@
 }
 
 
-@media screen and (max-width: 1024px) {
-    .container-login {
-        width: 90%;
-        height: 100%;
-        max-width: 80%;
-        max-height: 50%;
-        margin-top: -20rem;
-
-    }
-
-    .loading-page {
-        width: 100%;
-        height: 100%;
-        background-color: #ffffff;
-        position: fixed;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        opacity: 1;
-        transition: background-color 0.5s ease;
-
-    }
-
-    .content-loaded .loading-page {
-        background-color: transparent;
-        pointer-events: none;
-    }
-
-    .loading-logo {
-        width: 40%;
-        transform: translateY(0);
-        transition: transform 0.5s ease;
-    }
-
-    .content-loaded .loading-logo {
-        transform: translateY(-93%) scale(90%);
-
-    }
-}
-
-@media screen and (max-width: 724px) {
+@media screen and (max-width: 1100px) {
     .container-login {
         width: 90vw;
-        height: 70vh;
-        margin-top: -20rem;
-
+        height: 80vh;
+        margin-top: -10rem;
     }
+
+
 
     .loading-page {
         width: 100%;
@@ -347,7 +282,7 @@
         align-items: center;
         display: flex;
         opacity: 1;
-        transition: background-color 0.5s ease;
+        transition: background-color 2s ease;
 
     }
 
@@ -356,18 +291,14 @@
         pointer-events: none;
     }
 
-    .loading-page {
-        height: 200vh;
-    }
-
     .loading-logo {
-        width: 80%;
+        width: 100%;
         transform: translateY(0);
-        transition: transform 0.5s ease;
+        transition: transform 2s ease;
     }
 
     .content-loaded .loading-logo {
-        transform: translateY(-29rem) scale(70%);
-
+        transform: translateY(-69%) scale(60%);
     }
+
 }

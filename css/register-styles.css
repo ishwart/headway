@@ -35,18 +35,15 @@ body {
     flex-direction: column;
 }
 
-.register-heading {
-    padding: 5px 10px;
-}
-
-.register-svg-text {
-    margin-left: -25px;
-    margin-top: 3rem;
+.logo {
+    width: 75%;
+    margin-top: 5%;
+    padding: 10px 30px;
 }
 
 .listbox {
-    width: 87%;
-    height: 17%;
+    width: 86.5%;
+    height: 16%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -76,7 +73,7 @@ body {
 
 .listbox select {
     width: 100%;
-    height: 63%;
+    height: 62.5%;
     border-radius: 10px;
     border: 3px solid rgba(0, 78, 146, 0.89);
     color: #000;
