@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var conpasswordinput = document.getElementById("conpasswordinput");
     var selectrole = document.getElementById("selectrole");
     var companycontainer = document.getElementById("companycontainer")
+    var passworddoesntmatch = document.getElementById("passworddoesntmatch");
 
     hidebutton.addEventListener("click", function () {
         var selectedRole = selectrole.value;
@@ -17,8 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 return;
             }
 
+
             if (passwordinput.value.trim() === "" || conpasswordinput.value.trim() === "" || conpasswordinput.value.trim() !== passwordinput.value.trim()) {
-                alert("Password Doesn't Match");
+                passworddoesntmatch.style.display = "flex";
+                conpasswordinput.style.border = "3px solid #EA4335";
                 return;
             }
 

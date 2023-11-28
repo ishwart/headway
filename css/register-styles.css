@@ -134,13 +134,13 @@ body {
 /* exit-email-id-lable */
 
 .exist-email {
-
     margin-top: -3px;
     width: 80%;
 
 }
 
 .exist-email label {
+    display: none;
     color: #EA4335;
     font-family: Poppins;
     font-size: 9px;
@@ -158,8 +158,18 @@ body {
 
 /* IF WRONG PASSWORD ERROR */
 
-.confirm-password input {
-    border: 3px solid #EA4335;
+.register-email input {
+    /* border: 3px solid #EA4335; */
+}
+
+/*  END  */
+
+
+
+/* IF WRONG PASSWORD ERROR */
+
+#conpasswordinput {
+    border: 3px solid rgba(0, 78, 146, 0.89);
 }
 
 /*  END  */
@@ -188,6 +198,10 @@ body {
     width: 80%;
 }
 
+#passworddoesntmatch {
+    display: none;
+}
+
 .password-doesnt-match label {
     color: #EA4335;
     font-family: Poppins;
@@ -202,13 +216,7 @@ body {
 
 /* end */
 
-/* IF WRONG PASSWORD ERROR */
 
-.register-email input {
-    border: 3px solid #EA4335;
-}
-
-/*  END  */
 
 .forget-password {
     margin-top: 15px;
