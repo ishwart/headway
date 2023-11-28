@@ -9,13 +9,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/student-register.css">
+    <link rel="stylesheet" href="css/company-register.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="logo-heading">
-            <div class="logo">
+    <div class="company-container">
+        <div class="company-logo-heading">
+            <div class="company-logo">
                 <svg class="svg-logo" width="55" height="56" viewBox="0 0 81 82" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <path d="M45.951 36.8486H26.863V40.155H45.951V36.8486Z" fill="#277EBA" />
@@ -67,9 +67,9 @@
                 </svg>
             </div>
 
-            <div class="student-header">
+            <div class="company-header">
                 <h1>
-                    Student Details
+                    Company Details
                 </h1>
             </div>
 
@@ -78,32 +78,54 @@
         <!-------------------------------------- form added ------------------------------------------------->
 
         <form action="" method="POST">
-            <div class="details-container">
-                <div class="left-part">
+            <div class="company-details-container">
+                <div class="company-left-part">
                     <div class="details-input-boxs">
-                        <label>Name<span class="required">*</span></label>
-                        <input type="text" autocomplete="off" name="s-name" required>
+                        <label>Company Name<span class="required">*</span></label>
+                        <input type="text" autocomplete="off" name="c-name" required>
+                    </div>
+
+                    <div class="details-input-boxs">
+                        <label>Location<span class="required">*</span></label>
+                        <input type="text" autocomplete="off" name="c-location" required>
+                    </div>
+
+                    <div class="details-input-boxs">
+                        <label>Sector</label>
+                        <input type="text" autocomplete="off" name="c-sector">
+                    </div>
+
+
+                    <div class="details-input-boxs">
+                        <label>Website URL</label>
+                        <input type="url" autocomplete="off" name="c-url">
+                    </div>
+
+                </div>
+
+                <!---------------------------------------second part ------------------------------------------------------>
+
+
+                <div class="company-right-part">
+                    <div class="details-input-boxs">
+                        <label>Contact Person Name<span class="required">*</span></label>
+                        <input type="name" autocomplete="off" name="c-name" required>
+                    </div>
+
+                    <div class="details-input-boxs">
+                        <label>Designation<span class="required">*</span></label>
+                        <input type="text" autocomplete="off" name="d-designation" required>
                     </div>
 
                     <div class="details-input-boxs">
                         <label>Phone<span class="required">*</span></label>
-                        <input type="number" autocomplete="off" name="s-number" required>
-                    </div>
-
-                    <div class="details-input-boxs">
-                        <label>Email<span class="required">*</span></label>
-                        <input type="email" autocomplete="off" name="s-email" required>
+                        <input type="email" autocomplete="off" name="c-number" required>
                     </div>
 
 
                     <div class="details-input-boxs">
-                        <label>Location (City & State)<span class="required">*</span></label>
-                        <input type="text" autocomplete="off" name="s-address" required>
-                    </div>
 
-                    <div class="details-input-boxs">
-
-                        <label>Upload Resume<span class="required">*</span></label>
+                        <label>Company Logo</label>
                         <label id="label-upload-file" for="upload-file">Upload File <svg class="upload-icon"
                                 for="upload-file" xmlns="http://www.w3.org/2000/svg" width="20" height="17"
                                 viewBox="0 0 23 30" fill="none">
@@ -116,52 +138,10 @@
                         <input type="file" id="upload-file" autocomplete="off" name="email">
                     </div>
 
-
-
-                </div>
-
-                <!---------------------------------------second part ------------------------------------------------------>
-
-
-                <div class="right-part">
-                    <div class="details-input-boxs">
-                        <label>Highest Degree<span class="required">*</span></label>
-                        <select name="Degree" id="degree">
-                            <option value="" disabled hidden selected></option>
-                            <option value="mca">MCA</option>
-                            <option value="bca">BCA</option>
-                            <option values="mba">MBA</option>
-                        </select>
-                    </div>
-
-                    <div class="details-input-boxs">
-
-                        <label>Specialiation</label>
-                        <input type="text" autocomplete="off" name="s-specialiation" required>
-                    </div>
-
-                    <div class="details-input-boxs ">
-
-                        <label>Year of Completion<span class="required">*</span></label>
-                        <select name="Degree" id="degree">
-                            <option value="" disabled hidden selected></option>
-                            <option value="2021">2021</option>
-                            <option value="2022">2022</option>
-                            <option value="2023">2023</option>
-                            <option value="2024">2024</option>
-                        </select>
-                    </div>
-
-
-                    <div class="details-input-boxs" id="skills">
-                        <label>Tachnical Skills</label>
-                        <input type="text" autocomplete="off" name="s-skills" required>
-                    </div>
-
                 </div>
 
             </div>
-            <div class="finish-button">
+            <div class="company-finish-button">
                 <input type="submit" value="Finish" />
             </div>
         </form>

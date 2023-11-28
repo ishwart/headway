@@ -18,7 +18,7 @@ body {
     align-items: center;
 }
 
-.main-container {
+.company-container {
     background-color: rgba(0, 0, 0, 0.80);
     border-radius: 1.875rem;
     width: 90vw;
@@ -34,7 +34,7 @@ body {
     flex-direction: column;
 }
 
-.details-container {
+.company-details-container {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -44,8 +44,8 @@ body {
     padding: 0rem 2rem;
 }
 
-.left-part,
-.right-part {
+.company-left-part,
+.company-right-part {
     height: 90%;
     width: 50%;
     padding-left: 1rem;
@@ -57,7 +57,7 @@ body {
 
 }
 
-.logo-heading {
+.company-logo-heading {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -74,7 +74,7 @@ body {
 
 }
 
-.logo {
+.company-logo {
     height: 5rem;
 }
 
@@ -145,7 +145,7 @@ body {
     margin-top: -0.9rem;
 }
 
-.finish-button {
+.company-finish-button {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -155,7 +155,7 @@ body {
 
 }
 
-.finish-button input {
+.company-finish-button input {
     padding: 10px 10px;
     border-radius: 7px;
     background: #004E92;
@@ -221,7 +221,7 @@ body {
 
 }
 
-.finish-button input:hover {
+.company-finish-button input:hover {
     cursor: pointer;
     background: #4b93d1;
     transition: 0.3s
@@ -242,7 +242,7 @@ form {
 @media screen and (max-width: 1028px) {
 
 
-    .main-container {
+    .company-container {
         width: 90vw;
         height: 80vh;
         margin-top: -10px;
@@ -273,7 +273,7 @@ form {
 
 @media screen and (max-width: 724px) {
 
-    .main-container {
+    .company-container {
         width: 90vw;
         height: 100vh;
         min-height: 750px;
@@ -292,7 +292,7 @@ form {
     }
 
 
-    .logo-heading {
+    .company-logo-heading {
         width: 80%;
     }
 
@@ -311,7 +311,7 @@ form {
         margin-top: 0px;
     }
 
-    .details-container {
+    .company-details-container {
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -320,7 +320,7 @@ form {
         padding: 0rem 0rem;
     }
 
-    .left-part {
+    .company-left-part {
         height: 90%;
         width: 100%;
         padding-left: 1rem;
@@ -333,7 +333,7 @@ form {
 
     }
 
-    .right-part {
+    .company-right-part {
         height: 90%;
         width: 100%;
         padding-left: 1rem;
@@ -348,7 +348,7 @@ form {
     }
 
 
-    .finish-button {
+    .company-finish-button {
         display: flex;
         justify-content: center;
         flex-direction: column;

@@ -37,8 +37,12 @@
     flex-direction: column;
 }
 
+#logincontainer {
+    display: flex;
+}
 
-.logo {
+
+.logo-svg {
     width: 75%;
     margin-top: 5%;
     padding: 10px 30px;
@@ -148,7 +152,7 @@
 
 }
 
-.login-button button {
+.login-button input {
     padding: 10px 10px;
     border-radius: 10px;
     background: #004E92;
@@ -163,7 +167,7 @@
     line-height: normal;
 }
 
-.login-button button:hover {
+.login-button input:hover {
     cursor: pointer;
     background: #4b93d1;
 }
