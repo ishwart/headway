@@ -16,7 +16,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 }
 
 .container-registration {
@@ -370,9 +369,11 @@ body {
 
 @media screen and (max-width: 1100px) {
     .container-registration {
-        width: 90vw;
-        height: 70vh;
+        width: 85vw;
+        height: 0vh;
         margin-top: -40vh;
+        padding-bottom: 3vh;
+        padding-top: 1vh;
     }
 
 
@@ -410,10 +411,11 @@ body {
     height: 75%;
     justify-content: space-around;
     padding: 0rem 2rem;
+    margin-top: -2vw;
 }
 
-.left-part {
-    height: 95%;
+.student-left-part {
+    height: 90%;
     width: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -424,8 +426,8 @@ body {
 
 }
 
-.right-part {
-    height: 95%;
+.student-right-part {
+    height: 90%;
     width: 50%;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -439,9 +441,9 @@ body {
     justify-content: space-between;
     display: flex;
     flex-direction: row;
-    width: 85%;
+    width: 100%;
     height: 15%;
-    padding: 20px 0px;
+    padding: 1vw 4.3vw;
     margin-top: 1vw;
 }
 
@@ -451,9 +453,10 @@ body {
     height: 5rem;
     width: 24.5vw;
 
+
 }
 
-.logo {
+.student-logo {
     height: 5rem;
 }
 
@@ -578,22 +581,25 @@ input[type="number"] {
     margin-top: -0.9rem;
 }
 
-.finish-button {
+.student-finish-button {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 15%;
-    width: 18%;
+    height: 12%;
+    width: 100%;
+    margin-top: -1vw;
+
+
 
 }
 
-.finish-button input {
+.student-finish-button input {
     padding: 10px 10px;
     border-radius: 7px;
     background: #004E92;
-    height: 55%;
-    width: 93%;
+    height: 56%;
+    width: 14%;
     border: none;
     color: #FFF;
     font-family: Poppins;
@@ -653,7 +659,7 @@ input[type="number"] {
 
 }
 
-.finish-button input:hover {
+.student-finish-button input:hover {
     cursor: pointer;
     background: #4b93d1;
     transition: 0.3s
@@ -690,6 +696,9 @@ form {
         margin-top: 10px;
     }
 
+    .logo-heading {
+        padding: 2vw 7.2vw;
+    }
 
 }
 
@@ -706,10 +715,12 @@ form {
 @media (max-width:600px) {
 
     .student-container {
-        width: 90%;
-        height: 80%;
-        min-height: 90%;
-        margin-top: -50%;
+        width: 42vh;
+        height: 90vh;
+        min-height: 100vh;
+        max-height: 120vh;
+        min-width: 40vh;
+        margin-top: -35%;
 
     }
 
@@ -729,16 +740,16 @@ form {
 
 
     .logo-heading {
-        width: 80%;
-        height: 10vh;
+        width: 100%;
+        height: 15vh;
         display: flex;
-        justify-content: center;
+        padding-top: 4vh;
         align-items: center;
         flex-direction: column;
 
     }
 
-    .logo {
+    .student-logo {
         margin-top: -0.5vh;
         justify-content: center;
         align-items: center;
@@ -768,11 +779,12 @@ form {
         align-items: center;
         flex-direction: column;
         width: 100%;
-        height: 100%;
+        height: 74%;
         padding: 0rem 0rem;
+
     }
 
-    .left-part {
+    .student-left-part {
         height: 95%;
         width: 100%;
         padding-left: 1rem;
@@ -785,7 +797,7 @@ form {
 
     }
 
-    .right-part {
+    .student-right-part {
         height: 95%;
         width: 100%;
         padding-left: 1rem;
@@ -800,15 +812,21 @@ form {
     }
 
 
-    .finish-button {
+    .student-finish-button {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 13%;
-        width: 28%;
-        padding-bottom: 1.9rem;
+        height: 7%;
+        margin-top: 1.5vh;
+        width: 100%;
 
+
+    }
+
+    .student-finish-button input {
+        height: 70%;
+        width: 25%;
     }
 
     form {
@@ -1090,7 +1108,7 @@ form {
         width: 90vw;
         height: 100vh;
         min-height: 750px;
-        margin-top: -110px;
+        margin-top: -28vh;
 
     }
 
@@ -1102,15 +1120,27 @@ form {
 
     .svg-text {
         width: 110px;
+
     }
 
 
     .company-logo-heading {
-        width: 80%;
+        width: 100%;
+        height: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-top: -0.5vh;
     }
 
     .company-header {
-        width: 30%;
+        width: 100%;
+        margin-top: 3vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
 
     }
 
