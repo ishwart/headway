@@ -30,6 +30,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         else if (selectedRole === "company") {
+
+            if (!isValidEmail(emailinput.value.trim())) {
+                alert("Invalid Email");
+                return;
+            }
+
             if (passwordinput.value.trim() === "" || conpasswordinput.value.trim() === "" || conpasswordinput.value.trim() !== passwordinput.value.trim()) {
                 alert("Password Doesn't Match");
                 return;
