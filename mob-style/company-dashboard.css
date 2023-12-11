@@ -114,6 +114,10 @@
     border: none;
   }
 
+  #buy {
+    background-color: var(--green);
+  }
+
   .midd-part {
     margin-top: 10rem;
     height: fit-content;
