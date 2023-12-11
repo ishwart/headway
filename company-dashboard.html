@@ -12,14 +12,14 @@
     <link rel="stylesheet" href="style/company-dashboard.css">
     <link rel="stylesheet" href="mob-style/company-dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="scripts/company-dashboard.js"></script>
+    
 </head>
 
 <body>
 
 <!-- ___________________________________NAVIGATION_________________________________________________ -->
    
-    <div class="navigation-main-container">
+    <div id="navigationContainer" class="navigation-main-container">
 
         <div class="dash-logo">
             <img src="./img-and-svg/Headway.svg">
@@ -118,7 +118,7 @@
     <div class="dashboard-main-container">
         <div class="upper-part">
             <div class="dashboard-heading">
-                <i id="bars" class="fa fa-bars fa-3x"></i>
+                <i id="bars" class="fa fa-bars fa-3x" onclick="toggleMenu()"></i>
                 <h1>Dashboard</h1>
             </div>
             <div class="post-buy-btn">
@@ -162,6 +162,7 @@
                 </table>
             </div>
         </div>
+        <script src="scripts/company-dashboard.js"></script>
 </body>
 
 </html>

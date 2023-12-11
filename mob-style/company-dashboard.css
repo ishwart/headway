@@ -1,8 +1,8 @@
 @media screen and (max-width: 600px) {
   /* _________________________NAVIGATION_BARS__________________________________ */
 
-  .navigation-main-container {
-    width: 0;
+  #navigationContainer {
+    width: 0%;
     height: 100%;
     background: rgba(0, 0, 0, 0.911);
     padding: 3rem 0px;
@@ -10,8 +10,18 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: absolute;
+    position: fixed;
+    margin-top: -47rem;
+    z-index: 1000;
     overflow-x: scroll;
+    backdrop-filter: blur(5px);
+  }
+
+  #bars {
+    display: block;
+    padding-left: 20px;
+    color: rgba(0, 78, 146, 0.89);
+    cursor: pointer;
   }
 
   /* _________________________COMPANY_DASHBOARD_CONTAINER_______________________________ */
@@ -208,11 +218,5 @@
     padding: 12px;
     padding-top: 30px;
     text-align: center;
-  }
-
-  #bars {
-    display: block;
-    padding-left: 20px;
-    color: rgba(0, 78, 146, 0.89);
   }
 }
