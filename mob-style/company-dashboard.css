@@ -2,6 +2,7 @@
   /* _________________________NAVIGATION_BARS__________________________________ */
 
   #navigationContainer {
+    top: 0;
     opacity: 0;
     width: 0%;
     height: 100%;
@@ -12,7 +13,6 @@
     align-items: center;
     flex-direction: column;
     position: fixed;
-    margin-top: -47rem;
     z-index: 1000;
     overflow-x: scroll;
     backdrop-filter: blur(5px);
