@@ -331,3 +331,7 @@ svg {
     text-align: center;
 }
 
+#bars{
+    display: none;
+}
+

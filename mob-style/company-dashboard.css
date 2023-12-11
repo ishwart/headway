@@ -22,7 +22,8 @@
 body{
     height: 100%;
     width: 100%;
-    overflow: scroll !important;
+    overflow: scroll;
+    overflow-x: hidden;
     background: linear-gradient(180deg, rgba(0, 4, 40, 0.89) 1.59%, rgba(0, 78, 146, 0.89) 100%);
 }
 .dashboard-main-container {
@@ -207,6 +208,12 @@ body{
     padding: 12px;
     padding-top: 30px;
     text-align: center;
+}
+
+#bars{
+    display: block;
+    padding-left: 10px;
+    color: rgb(20, 20, 89);
 }
     
 }
