@@ -213,7 +213,7 @@ body{
 #bars{
     display: block;
     padding-left: 20px;
-    color: rgb(33, 33, 140);
+    color: var(--blue);
 }
     
 }
