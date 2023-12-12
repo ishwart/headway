@@ -451,16 +451,15 @@
     font-family: Poppins;
     font-size: 4vw;
     padding: 0px;
-    margin-top: 1rem;
     font-style: normal;
     font-weight: 500;
     padding-left: 0rem;
   }
 
   .edit-left-right-pack .left {
-    gap: 1rem;
+    gap: 0rem;
     width: 100%;
-    height: 55%;
+    height: 40%;
     justify-content: start;
     align-items: center;
     display: flex;
@@ -469,7 +468,7 @@
   }
 
   .edit-left-right-pack .right {
-    gap: 1rem;
+    gap: 0rem;
     width: 100%;
     height: 50%;
     justify-content: start;
@@ -477,6 +476,7 @@
     display: flex;
     flex-direction: column;
     padding: 0% 0%;
+    margin-top: 3.5rem;
   }
 
   .edit-left-right-pack .left input,
@@ -486,7 +486,7 @@
     border-radius: 0.625rem;
     border: 2px solid rgba(0, 78, 146, 0.89);
     background-color: transparent;
-    margin-bottom: 0px;
+    margin-bottom: 2rem;
     color: #fff;
     font-family: Poppins;
     font-size: 4vw;
@@ -501,6 +501,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: -10px;
   }
 
   .cancel,
@@ -508,5 +509,12 @@
     height: 10vw !important;
     width: 20vw !important;
     font-size: 3.5vw !important;
+  }
+
+  .edit-profile-btn {
+    justify-content: center;
+    margin-top: -5rem;
+    height: 8rem;
+    align-items: start;
   }
 }

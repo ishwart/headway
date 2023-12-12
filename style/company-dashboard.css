@@ -563,7 +563,7 @@ svg {
 
 .edit-left-right-pack .left,
 .edit-left-right-pack .right {
-  gap: 1rem;
+  gap: 0rem;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -580,7 +580,7 @@ svg {
   border-radius: 0.625rem;
   border: 2px solid rgba(0, 78, 146, 0.89);
   background-color: transparent;
-  margin-bottom: 5%;
+  margin-bottom: 3rem;
   color: #fff;
   font-family: Poppins;
   font-size: 2rem;
