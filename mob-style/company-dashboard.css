@@ -255,6 +255,8 @@
 
   #p-dashboard-button button {
     width: 100%;
+    height: 8vw;
+    font-size: 3.5vw;
   }
 
   .profile-lower-part {
