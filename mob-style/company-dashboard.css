@@ -314,7 +314,7 @@
 
   .profile-lower-part-container .left-right-pack {
     width: 100%;
-    height: 170vw;
+
     justify-content: center;
     align-items: center;
     display: flex;
@@ -324,7 +324,6 @@
   .profile-lower-part-container .left,
   .profile-lower-part-container .right {
     width: 100%;
-    height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -346,6 +345,7 @@
     font-style: normal;
     font-weight: 500;
     padding-left: 1rem;
+    padding: 8px 0px;
   }
 
   .profile-lower-part-container .left input:focus,
