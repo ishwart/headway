@@ -600,3 +600,47 @@ svg {
 .cancel {
   background: #ea4335 !important;
 }
+
+/* ______________________________COMPANY-JOBS________________________________________ */
+
+.profile-lower-part {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  padding: 1.5vw 4vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-lower-part table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.profile-lower-part table th {
+  color: #fff;
+  border: 0.5px solid #545b6d;
+  border-width: 0 0 1px 0;
+  font-size: 1vw;
+  padding: 12px;
+  text-align: center;
+}
+
+.profile-lower-part table td {
+  color: #ffffffbd;
+  border: 0.5px solid #545b6d;
+  border-width: 0 0 1px 0;
+  font-size: 1vw;
+  padding: 12px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#td-view a {
+  color: var(--green);
+  font-family: Poppins;
+  width: 0%;
+  height: 0;
+  font-size: 1vw;
+  font-weight: 700;
+}

@@ -360,7 +360,7 @@
     cursor: default;
   }
 
-  /* ______________________________COMPANY-EDIT-PROFILE_________________________________ */
+  /*______________________________COMPANY-EDIT-PROFILE_________________________________*/
 
   .heading-container-without-btn {
     width: 100%;
@@ -517,4 +517,56 @@
     height: 8rem;
     align-items: start;
   }
+}
+
+/* ______________________COMPANY-JOBS_______________________________________*/
+
+#m-lower {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding: 5vw 4vw;
+  padding-bottom: 10vw;
+  align-items: center;
+
+  flex-direction: column;
+}
+
+#m-container {
+  overflow: scroll;
+}
+
+#m-lower table {
+  border-collapse: collapse;
+  width: 70rem;
+  margin-left: 35rem;
+}
+
+.profile-lower-part table th {
+  color: #fff;
+  border: 0.5px solid #545b6d;
+  border-width: 0 0 1px 0;
+  font-size: 3vw;
+  font-weight: 500;
+  padding: 12px;
+  text-align: center;
+}
+
+.profile-lower-part table td {
+  color: #ffffffbd;
+  border: 0.5px solid #545b6d;
+  border-width: 0 0 1px 0;
+  font-size: 3vw;
+  padding: 12px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#td-view a {
+  color: var(--green);
+  font-family: Poppins;
+  width: 0%;
+  height: 0;
+  font-size: 1vw;
+  font-weight: 700;
 }
