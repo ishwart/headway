@@ -319,7 +319,7 @@ svg {
   display: none;
 }
 
-/* ______________________________COMPANY-PROFILE__________________________ */
+/* ______________________________COMPANY-PROFILE_______________________________ */
 
 #p-dashboard-button {
   display: flex;
@@ -445,4 +445,158 @@ svg {
 .profile-lower-part-container .left input:hover,
 .profile-lower-part-container .right input:hover {
   cursor: default;
+}
+
+/* _________________________________EDIT_PROFILE__________________________________________ */
+
+.heading-container-without-btn {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.heading-container-without-btn h1 {
+  color: #8c8c8c85;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#form-for-edit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.edit-upload-pic-company-name {
+  width: 100%;
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+
+.edit-upload-pic-company-name .upload-pic {
+  border-radius: 9.4375rem;
+  background: #d9d9d9;
+  width: 8.4375rem;
+  height: 8.4375rem;
+  justify-content: center;
+  display: flex;
+  margin-top: 2.5rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.edit-upload-pic-company-name .upload-pic:hover {
+  cursor: pointer;
+}
+
+.edit-upload-pic-company-name .upload-pic input:hover {
+  cursor: pointer;
+}
+
+.upload-pic label {
+  color: #000;
+  font-family: Poppins;
+  width: 50%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+}
+
+.upload-pic img {
+  width: 20%;
+}
+
+.edit-upload-pic-company-name .upload-pic input {
+  height: 13%;
+  width: 6%;
+  opacity: 0;
+  background-color: var(--white);
+  border-radius: 100%;
+  position: absolute;
+}
+
+.input-company-name {
+  width: 40%;
+  height: 50%;
+}
+
+.edit-upload-pic-company-name input[type="text"] {
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  margin-bottom: 10%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.edit-profile-btn {
+  height: 18%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 8%;
+}
+
+.input-company-name input:focus {
+  outline: none;
+}
+
+.edit-left-right-pack .left,
+.edit-left-right-pack .right {
+  gap: 1rem;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 4%;
+}
+
+.edit-left-right-pack .left input,
+.edit-left-right-pack .right input {
+  height: 4.5rem;
+  width: 100%;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  margin-bottom: 5%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+.profile-lower-part-container .edit-left-right-pack {
+  width: 95%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.cancel {
+  background: #ea4335 !important;
 }

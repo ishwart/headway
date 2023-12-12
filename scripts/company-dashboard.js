@@ -41,6 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
 }
 
 
+// _____________________USED-TO-CHANGE-THE-PAGES________________________________________
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll('.dash-nav-items a');
     activateLink(links[0]);
