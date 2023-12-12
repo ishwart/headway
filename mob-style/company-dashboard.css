@@ -1,5 +1,8 @@
 @media screen and (max-width: 600px) {
   /* _________________________NAVIGATION_BARS__________________________________ */
+  * {
+    scroll-behavior: smooth;
+  }
 
   #navigationContainer {
     top: 0;
@@ -227,5 +230,131 @@
     padding: 12px;
     padding-top: 30px;
     text-align: center;
+  }
+
+  /* _______________________________COMPANY-PROFILE______________________________________ */
+
+  #p-dashboard h1 {
+    line-height: 7rem;
+    font-family: Poppins;
+    font-style: normal;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  #p-dashboard-button {
+    display: flex;
+    justify-content: center;
+    padding: 0px 18px;
+    width: 30%;
+  }
+
+  #p-dashboard-button button {
+    width: 100%;
+  }
+
+  .profile-lower-part {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    padding: 1.5vw 4vw;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .profile-lower-part-container {
+    height: 97%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 5%;
+    border-radius: 1.25rem;
+    background-color: var(--black);
+    padding: 20px;
+    margin-top: 7rem;
+  }
+
+  .profile-lower-part label {
+    font-size: 2vw;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .profile-logo {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .profile-logo div {
+    border-radius: 9.4375rem;
+    background: #d9d9d9;
+    width: 9.4375rem;
+    height: 9.4375rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .profile-logo div img {
+    width: 45%;
+  }
+
+  .profile-lower-part-container .left-right-pack {
+    width: 100%;
+    height: 170vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-lower-part-container .left,
+  .profile-lower-part-container .right {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0% 4%;
+  }
+
+  .profile-lower-part-container .left input,
+  .profile-lower-part-container .right input {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+    border: 2px solid rgba(0, 78, 146, 0.89);
+    background-color: transparent;
+    margin-bottom: 5%;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 1rem;
+  }
+
+  .profile-lower-part-container .left input:focus,
+  .profile-lower-part-container .right input:focus {
+    outline: none;
+  }
+
+  .profile-lower-part-container .left input:hover,
+  .profile-lower-part-container .right input:hover {
+    cursor: default;
   }
 }
