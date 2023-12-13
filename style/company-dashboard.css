@@ -795,3 +795,216 @@ svg {
   font-size: 1vw;
   font-weight: 700;
 }
+
+/* ____________________________________________________COMPANY-JOB-DETAILS________________________________________ */
+
+.post-job-lower-part {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 1.5vw 4vw;
+  align-items: center;
+  flex-direction: column;
+}
+
+.post-job-lower-part-container {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  line-height: 5%;
+  border-radius: 1.25rem;
+  background-color: var(--black);
+  padding: 25px 20px;
+}
+
+.post-job-lower-part-container form {
+  height: 100%;
+}
+
+.post-job-lower-part label {
+  font-size: 2vw;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  width: 100%;
+}
+
+.post-job-lower-part-container .left-right-pack {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.post-job-lower-part-container .left,
+.post-job-lower-part-container .right {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 6%;
+}
+
+.post-job-lower-part-container .left input,
+.post-job-lower-part-container .right input {
+  width: 100%;
+  height: 15%;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  margin-bottom: 3%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.post-job-lower-part-container .left input:focus,
+.post-job-lower-part-container .right input:focus {
+  outline: none;
+}
+
+.job-disc {
+  height: 40%;
+  width: 88%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  padding-bottom: 0%;
+}
+
+.job-disc label {
+  font-size: 1.05vw;
+  font-weight: 300;
+}
+
+.post-job-lower-part-container form {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-job-lower-part-container select {
+  width: 100%;
+  height: 15%;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  margin-bottom: 3%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.post-job-lower-part-container select:focus {
+  outline: none;
+}
+
+.post-job-lower-part-container option {
+  width: 100%;
+  height: 15%;
+  border-radius: 5.625rem;
+  background-color: rgba(0, 0, 0, 0.904);
+  margin-bottom: 3%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.job-disc textarea {
+  width: 100%;
+  height: 60%;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  resize: none;
+}
+
+.job-disc textarea:focus {
+  outline: none;
+}
+
+#count {
+  justify-content: right;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.post-job-btn {
+  height: 15%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  gap: 12%;
+}
+
+.submit {
+  width: 11vw;
+  height: 80%;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: var(--green);
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.submit:hover {
+  background-color: #10614eb6;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.288);
+}
+
+.cancel {
+  width: 11vw;
+  height: 80%;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: var(--green);
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  background-color: #ea4335;
+  padding-left: 3vw;
+}
+
+.cancel:hover {
+  background-color: #612310b6;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  color: rgba(255, 255, 255, 0.288);
+}
