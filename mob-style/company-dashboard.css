@@ -518,6 +518,62 @@
     align-items: start;
   }
 
+  /* ______________________________COMPANY-HIRE_______________________________________________________________*/
+  .hire-midd-part {
+    margin-top: 10rem;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 15px;
+  }
+  .dashboard-baners h1 {
+    padding: 0.5rem;
+  }
+
+  #large-btn button {
+    font-size: 2.7vw;
+  }
+
+  /* ______________________COMPANY-BULKHIRE__________________________________ */
+
+  .bulkhire-lower-part-container {
+    height: auto;
+  }
+
+  .bulkhire-lower-part {
+    height: 100vh;
+    margin-top: 7rem;
+  }
+
+  .bulkhire-lower-part-container .left,
+  .bulkhire-lower-part-container .right {
+    height: auto;
+  }
+
+  .bulkhire-lower-part-container .left input,
+  .bulkhire-lower-part-container .right input {
+    padding: 0.5rem;
+    height: auto;
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .bulkhire-lower-part-container .left-right-pack {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .bulkhire-lower-part-container input[type="submit"] {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+  }
+
   /* ______________________COMPANY-JOBS_______________________________________*/
 
   #m-lower {
