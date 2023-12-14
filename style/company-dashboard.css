@@ -629,7 +629,7 @@ svg {
 }
 
 .bulkhire-lower-part-container {
-  height: 88%;
+  height: 90%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1007,4 +1007,241 @@ svg {
   cursor: pointer;
   transition: 0.2s ease-in-out;
   color: rgba(255, 255, 255, 0.288);
+}
+
+/* _______________________________COMPANY-BUY-CREDITS______________________________ */
+
+#buy-main-div {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.division-two #checkout {
+  color: #000;
+  font-family: Poppins;
+  font-size: 4.125rem;
+  font-style: normal;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  line-height: normal;
+  padding-top: 1rem;
+}
+
+.total {
+  font-family: Poppins !important;
+  font-size: 2rem !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  color: rgba(0, 148, 118, 0.89) !important;
+}
+
+.buy-credit-container {
+  height: 100%;
+  width: 85%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 4, 40, 0.89) 1.59%,
+    rgba(0, 78, 146, 0.89) 100%
+  );
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.buy-credit-upper {
+  height: 70px;
+  width: 1000px;
+}
+.buy-credit-upper h1 {
+  color: #8c8c8c85;
+  font-family: Poppins;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.buy-credit-lower {
+  height: 500px;
+  width: 1000px;
+  background-color: var(--black);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.division-one,
+.division-two {
+  height: 100%;
+  width: 50%;
+}
+.division-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.division-one p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.425rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.division-one div {
+  height: 30%;
+  width: 100%;
+}
+
+.division-one label {
+  font-size: 2vw;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+
+.division-one input {
+  width: 100%;
+  height: 30%;
+  border-radius: 0.625rem;
+  border: 2px solid rgba(0, 78, 146, 0.89);
+  background-color: transparent;
+  margin-bottom: 3%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 1rem;
+}
+
+.division-one input:focus {
+  outline: none;
+}
+
+.division-one button {
+  width: 13rem;
+  height: 3.375rem;
+  flex-shrink: 0;
+  border-radius: 0.625rem;
+  background: rgba(0, 148, 118, 0.89);
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.division-two {
+  height: 90%;
+  width: 35%;
+  border-radius: 1.25rem;
+  background: #fff;
+  gap: 35px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkout-box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 10px;
+}
+
+.checkout-box .checkout-right {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  width: 80%;
+  gap: 2rem;
+}
+
+.checkout-box #checkout-right label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.checkout-box #checkout-left label {
+  color: #000;
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.checkout-left {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+#checkout-right {
+  border-bottom: 2px solid var(--black);
+}
+
+#checkout-left {
+  border-bottom: 2px solid var(--black);
+}
+
+.checkout-left label {
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #000;
+}
+
+.checkout-btn {
+  width: 90%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.checkout-btn button {
+  border-radius: 0.625rem;
+  background: rgba(0, 148, 118, 0.89);
+  border: none;
+  width: 100%;
+  height: 3.375rem;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }

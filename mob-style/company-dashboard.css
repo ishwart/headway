@@ -668,4 +668,56 @@
   .job-disc textarea {
     height: 10vh;
   }
+  /* ___________________________________COMPANY-BUY-CREDITS________________________________*/
+
+  #buy-main-div {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    width: 90vw;
+    padding: 40px 2px;
+  }
+
+  .division-one p {
+    width: 70vw;
+    font-size: 5vw;
+    text-align: center;
+  }
+
+  .division-one div {
+    height: 15vh;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .division-one input {
+    width: 75vw;
+    height: 10vw;
+  }
+
+  .division-one button {
+    height: 10vw;
+    font-size: 5vw;
+  }
+
+  .division-one label {
+    font-size: 4vw;
+  }
+
+  #buycredit-lower {
+    height: 270vw;
+    margin-top: 10rem;
+  }
+  .division-two {
+    width: 75vw;
+  }
+
+  .checkout-btn button {
+    height: 10vw;
+    font-size: 5vw;
+  }
 }
