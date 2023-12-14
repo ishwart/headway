@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="style/company-dashboard.css">
     <link rel="stylesheet" href="mob-style/company-dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./scripts/company-dashboard.js"></script>
 </head>
 <body>
 <div id="navigationContainer" class="navigation-main-container">
@@ -112,10 +113,11 @@
     <div class="dashboard-main-container">
         <div class="upper-part" id="hire-upper-part">
             <div class="dashboard-heading" id="hire-heading">
+                <i id="bars" class="fa fa-bars fa-3x" onclick="toggleMenu()"></i>
                 <h1>Post a Job</h1>
             </div>
         </div>
-        <div id="post-job-lower" class="post-job-lower-part">
+        <div class="post-job-lower-part">
             <div id="post-job-lower-container" class="post-job-lower-part-container">
                 <form method="post">
                     <div class="left-right-pack">
