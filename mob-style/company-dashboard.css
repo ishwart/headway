@@ -792,4 +792,25 @@
   #candidate-right {
     justify-content: start;
   }
+
+  /* ____________________________STUDENT-DASHBOARD________________________________ */
+
+  #s-premium-logo img {
+    width: 9vw;
+  }
+
+  #s-premium-logo {
+    padding-left: 0rem;
+    padding-right: 15px;
+    justify-content: end;
+    gap: 5px;
+  }
+
+  #s-premium-logo h1 {
+    font-size: 2.5vw;
+  }
+
+  #s-premium-logo h1 span {
+    font-size: 3vw;
+  }
 }
