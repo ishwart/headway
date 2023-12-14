@@ -745,7 +745,7 @@
 
 /* ___________________________COMPANY-CANDIDATES___________________________________ */
 #candidate-textbox {
-  height: 12vw;
+  height: 13vw;
 }
 
 #candidate-right input {
@@ -755,9 +755,12 @@
 #upload-pic-candidate {
   height: 52vw;
   justify-content: start;
-  padding: 0px 4px;
+  padding: 0px 3px;
 }
 
 #candidate-button {
   height: 12vw;
+}
+#candi-left {
+  padding-top: 10px;
 }
