@@ -128,12 +128,12 @@
         </div>
         <div class="profile-lower-part">
             <div class="profile-lower-part-container">
-                <div class="profile-logo">
+                <div id="profile-logo" class="profile-logo">
                     <div>
                         <img src="img-and-svg/cam-icon.svg">
                     </div>
                 </div>
-                <div class="left-right-pack">
+                <div id="profile-rl-pack" class="left-right-pack">
                     <div class="left">
                         <label for="">Company Name</label>
                         <input type="text" readonly>
@@ -163,39 +163,6 @@
                 </div>
             </div>
         </div>
-
-        <!---------------------------- temp javascript for page changing ------------------------------- -->
-        <script>
-            function activateLink(link) {
-                var links = document.querySelectorAll('.dash-nav-items a');
-                links.forEach(function (item) {
-                    item.classList.remove('active');
-                });
-                link.classList.add('active');
-
-                var paths = document.querySelectorAll('.dash-nav-items a svg path');
-                paths.forEach(function (path) {
-                    path.style.stroke = '';
-                });
-
-                var activePath = link.querySelector('svg path');
-                activePath.style.stroke = '#004E92';
-            }
-
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var links = document.querySelectorAll('.dash-nav-items a');
-                activateLink(links[1]);
-
-                links.forEach(function (link) {
-                    link.addEventListener('click', function (event) {
-                        // event.preventDefault();
-                        activateLink(link);
-                    });
-                });
-            });
-
-        </script>
 
 
 </body>

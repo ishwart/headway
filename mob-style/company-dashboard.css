@@ -246,6 +246,10 @@
     overflow: hidden;
   }
 
+  #profile-logo {
+    height: 30vw;
+  }
+
   #p-dashboard-button {
     display: flex;
     justify-content: center;
@@ -269,7 +273,7 @@
   }
 
   .profile-lower-part-container {
-    height: 80%;
+    height: fit-content;
     width: 100%;
     display: flex;
     align-items: center;
@@ -279,6 +283,15 @@
     background-color: var(--black);
     padding: 20px;
     margin-top: 10rem;
+  }
+
+  #profile-rl-pack {
+    height: 180vw;
+  }
+
+  #profile-rl-pack .left input,
+  #profile-rl-pack .right input {
+    margin-bottom: 2.5rem;
   }
 
   .profile-lower-part label {
@@ -361,6 +374,9 @@
   }
 
   /*______________________________COMPANY-EDIT-PROFILE_________________________________*/
+  #edit-profile-lower {
+    height: fit-content;
+  }
 
   .heading-container-without-btn {
     width: 100%;
@@ -588,6 +604,7 @@
   }
 
   #m-container {
+    height: 220vw;
     overflow: scroll;
   }
 

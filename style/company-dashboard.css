@@ -808,7 +808,7 @@ svg {
 }
 
 .post-job-lower-part-container {
-  height: 95%;
+  height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -1295,3 +1295,5 @@ svg {
 #candidate-right {
   padding-bottom: 1.5vw;
 }
+
+/* ____________________________________STUDENT-DASHBOARD____________________________ */
