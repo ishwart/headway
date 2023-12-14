@@ -999,7 +999,6 @@ svg {
   font-style: normal;
   font-weight: 500;
   background-color: #ea4335;
-  padding-left: 3vw;
 }
 
 .cancel:hover {
@@ -1244,4 +1243,10 @@ svg {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+/* _____________________________COMPANY-POST-JOB__________________________________*/
+
+#post-job-lower {
+  height: 82vh;
 }

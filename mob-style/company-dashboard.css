@@ -720,3 +720,14 @@
     font-size: 5vw;
   }
 }
+
+/* _____________________________COMPANY-POST-JOB__________________________________*/
+
+#post-job-lower-container {
+  height: 220vw;
+  margin-top: 90px;
+}
+
+#post-job-lower {
+  height: 270vw;
+}
