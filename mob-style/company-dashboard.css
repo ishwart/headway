@@ -85,7 +85,7 @@
   .dashboard-heading h1 {
     color: #8c8c8c85;
     font-family: Poppins;
-    font-size: 6vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 700;
     display: flex;
@@ -106,7 +106,7 @@
   #post,
   #buy {
     background-color: var(--blue);
-    width: 100%;
+    width: 50%;
     height: 50%;
     color: #fff;
     font-family: Poppins;

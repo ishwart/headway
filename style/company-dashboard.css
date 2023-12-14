@@ -1524,6 +1524,10 @@ input[type="text"]:focus {
   border: none;
 }
 
+#hire-candi {
+  font-size: 4vw;
+}
+
 /* _________________________________STUDENT-EDIT-PROFILE________________________ */
 
 .student-lower-container {
