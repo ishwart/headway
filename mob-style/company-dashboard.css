@@ -656,12 +656,12 @@
 
   .post-job-lower-part-container .left input,
   .post-job-lower-part-container .right input {
-    height: 5vh;
+    height: 12vw;
     margin-bottom: 2rem;
   }
 
   .post-job-lower-part-container select {
-    height: 5vh;
+    height: 12vw;
     margin-bottom: 2rem;
   }
 
@@ -734,33 +734,45 @@
     height: 10vw;
     font-size: 5vw;
   }
-}
 
-/* _____________________________COMPANY-POST-JOB__________________________________*/
+  /* _____________________________COMPANY-POST-JOB__________________________________*/
 
-#post-job-lower-container {
-  height: 220vw;
-  margin-top: 90px;
-}
+  #post-job-lower-container {
+    height: fit-content;
+    margin-top: 90px;
+  }
 
-/* ___________________________COMPANY-CANDIDATES___________________________________ */
-#candidate-textbox {
-  height: 13vw;
-}
+  /* ___________________________COMPANY-CANDIDATES___________________________________ */
+  #candidate-textbox {
+    height: 12.5vw;
+  }
 
-#candidate-right input {
-  height: 12.5vw;
-}
+  #candidate-right input {
+    height: 12.5vw;
+  }
 
-#upload-pic-candidate {
-  height: 52vw;
-  justify-content: start;
-  padding: 0px 3px;
-}
+  #upload-pic-candidate {
+    height: 52vw;
+    justify-content: start;
+    padding: 0px 3px;
+  }
 
-#candidate-button {
-  height: 12vw;
-}
-#candi-left {
-  padding-top: 10px;
+  #candidate-button {
+    height: 12vw;
+  }
+  #candi-left {
+    padding-top: 10px;
+  }
+
+  #candi-left input {
+    height: 12.5vw;
+  }
+
+  #candi-lower {
+    height: 250vw;
+  }
+
+  #candidate-right {
+    justify-content: start;
+  }
 }
