@@ -328,6 +328,10 @@ svg {
   padding-right: 5rem;
 }
 
+#p-dashboard h1 {
+  margin-right: 5rem;
+}
+
 #edit-profile {
   background-color: var(--green);
   width: 34%;
@@ -1645,4 +1649,32 @@ input[type="text"]:focus {
 ::placeholder {
   color: #fff;
   font-weight: 500;
+}
+
+/* ________________________________STUDENT-JOB-DETAILS______________________________ */
+
+#j-d-lower {
+  padding-bottom: 50px;
+}
+
+#j-d-container {
+  padding-top: 0px;
+}
+
+#j-d-container #mid-container {
+  height: 70%;
+  padding-top: 50px;
+}
+
+#j-d-container #mid-container input {
+  height: 3vw;
+  margin-bottom: 2rem;
+}
+
+.j-d-textarea {
+  margin-top: 0rem;
+}
+
+.j-d-textarea {
+  height: 10vw !important;
 }
