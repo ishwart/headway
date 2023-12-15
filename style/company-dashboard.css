@@ -1695,6 +1695,9 @@ input[type="text"]:focus {
   justify-content: center;
   align-items: center;
 }
+.popup-container.show-popup {
+  display: flex;
+}
 
 .popup-inner {
   border-radius: 1.25rem;

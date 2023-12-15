@@ -19,7 +19,7 @@ function activateLink(link) {
 
 document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll('.dash-nav-items a');
-    activateLink(links[2]);
+    activateLink(links[4]);
 
     links.forEach(function (link) {
         link.addEventListener('click', function (event) {

@@ -888,6 +888,9 @@
   .lower-buttons button {
     width: 11rem;
   }
+  #lower-container {
+    justify-content: start;
+  }
 
   /* _____________________________________STUDENT-JOB-APPLIED______________________________ */
   #job-applied-lower {
@@ -902,6 +905,32 @@
     flex-direction: column;
     justify-content: center;
     gap: 3rem;
+  }
+
+  /* ____________________________STUDENT_JOB_DETAILS________________________ */
+  #j-d-container {
+    padding: 0px 20px;
+    margin-top: 7rem;
+  }
+
+  #j-d-lower {
+    height: fit-content;
+    padding-bottom: 50px;
+    /* overflow-y: auto; */
+  }
+
+  .j-d-textarea {
+    height: 20% !important;
+  }
+
+  #j-d-container #mid-container {
+    height: auto;
+    padding-top: 30px;
+  }
+
+  #j-d-container #mid-container input {
+    height: 10vw;
+    margin-bottom: 2rem;
   }
 
   /* _________________________________POPUPS_______________________________ */

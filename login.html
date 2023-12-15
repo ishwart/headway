@@ -1,123 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/login-styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/login-styles.css" />
     <script src="scripts/login.js"></script>
-</head>
+  </head>
 
-<body class="login-body">
-
+  <body class="login-body">
     <div class="container-login" id="logincontainer">
-        <img src="img-and-svg/Headway.svg" class="logo-svg">
-        <div class="login-email">
-            <label>Email</label>
-            <input type="email" autocomplete="off" name="email">
-        </div>
+      <img src="img-and-svg/Headway.svg" class="logo-svg" />
+      <div class="login-email">
+        <label>Email</label>
+        <input type="email" autocomplete="off" name="email" />
+      </div>
 
-        <div class="login-email-password">
-            <label>Password</label>
-            <input type="password" autocomplete="off" name="email-password">
-        </div>
+      <div class="login-email-password">
+        <label>Password</label>
+        <input type="password" autocomplete="off" name="email-password" />
+      </div>
 
-        <div class="wrong-password">
-            <label>Invalid Password and Email</label>
-        </div>
-        <div class="forget-password">
-            <a href="">Forget Password?</a>
-        </div>
+      <div class="wrong-password">
+        <label>Invalid Password and Email</label>
+      </div>
+      <div class="forget-password">
+        <a href="">Forget Password?</a>
+      </div>
 
-        <div class="login-button">
-            <input type="submit" value="Sign in" id="hidebutton">
-        </div>
-        <div class="login-or">
-            <div></div>
-            <p>Or</p>
-            <div></div>
-        </div>
+      <div class="login-button">
+        <input type="submit" value="Sign in" id="hidebutton" />
+      </div>
+      <div class="login-or">
+        <div></div>
+        <p>Or</p>
+        <div></div>
+      </div>
 
-        <div class="google-login-button">
+      <div class="google-login-button">
+        <button>
+          <div class="google-icon">
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 27 27"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_8_831)">
+                <mask
+                  id="mask0_8_831"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="27"
+                  height="27"
+                >
+                  <path
+                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask0_8_831)">
+                  <path
+                    d="M-0.80542 21.4773V5.52271L9.6264 13.5L-0.80542 21.4773Z"
+                    fill="#FBBC05"
+                  />
+                </g>
+                <mask
+                  id="mask1_8_831"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="27"
+                  height="27"
+                >
+                  <path
+                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask1_8_831)">
+                  <path
+                    d="M-0.80542 5.52271L9.6264 13.5L13.9219 9.7568L28.6491 7.36362V-1.22729H-0.80542V5.52271Z"
+                    fill="#EA4335"
+                  />
+                </g>
+                <mask
+                  id="mask2_8_831"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="27"
+                  height="27"
+                >
+                  <path
+                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask2_8_831)">
+                  <path
+                    d="M-0.80542 21.4773L17.6037 7.36362L22.4514 7.97725L28.6491 -1.22729V28.2273H-0.80542V21.4773Z"
+                    fill="#34A853"
+                  />
+                </g>
+                <mask
+                  id="mask3_8_831"
+                  style="mask-type: luminance"
+                  maskUnits="userSpaceOnUse"
+                  x="0"
+                  y="0"
+                  width="27"
+                  height="27"
+                >
+                  <path
+                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
+                    fill="white"
+                  />
+                </mask>
+                <g mask="url(#mask3_8_831)">
+                  <path
+                    d="M28.6492 28.2273L9.62642 13.5L7.17188 11.6591L28.6492 5.52271V28.2273Z"
+                    fill="#4285F4"
+                  />
+                </g>
+              </g>
+              <defs>
+                <clipPath id="clip0_8_831">
+                  <rect width="27" height="27" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+          </div>
+          Continue with Google
+        </button>
+      </div>
 
-            <button>
-                <div class="google-icon"><svg width="18" height="18" viewBox="0 0 27 27" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_8_831)">
-                            <mask id="mask0_8_831" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
-                                width="27" height="27">
-                                <path
-                                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
-                                    fill="white" />
-                            </mask>
-                            <g mask="url(#mask0_8_831)">
-                                <path d="M-0.80542 21.4773V5.52271L9.6264 13.5L-0.80542 21.4773Z" fill="#FBBC05" />
-                            </g>
-                            <mask id="mask1_8_831" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
-                                width="27" height="27">
-                                <path
-                                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
-                                    fill="white" />
-                            </mask>
-                            <g mask="url(#mask1_8_831)">
-                                <path
-                                    d="M-0.80542 5.52271L9.6264 13.5L13.9219 9.7568L28.6491 7.36362V-1.22729H-0.80542V5.52271Z"
-                                    fill="#EA4335" />
-                            </g>
-                            <mask id="mask2_8_831" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
-                                width="27" height="27">
-                                <path
-                                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
-                                    fill="white" />
-                            </mask>
-                            <g mask="url(#mask2_8_831)">
-                                <path
-                                    d="M-0.80542 21.4773L17.6037 7.36362L22.4514 7.97725L28.6491 -1.22729V28.2273H-0.80542V21.4773Z"
-                                    fill="#34A853" />
-                            </g>
-                            <mask id="mask3_8_831" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
-                                width="27" height="27">
-                                <path
-                                    d="M26.5014 11.0455H13.9219V16.2614H21.1628C20.4878 19.575 17.6651 21.4773 13.9219 21.4773C9.5037 21.4773 5.9446 17.9182 5.9446 13.5C5.9446 9.08182 9.5037 5.52273 13.9219 5.52273C15.8242 5.52273 17.5423 6.19773 18.8923 7.30227L22.8196 3.375C20.4264 1.28864 17.3582 0 13.9219 0C6.43551 0 0.421875 6.01364 0.421875 13.5C0.421875 20.9864 6.43551 27 13.9219 27C20.6719 27 26.8082 22.0909 26.8082 13.5C26.8082 12.7023 26.6855 11.8432 26.5014 11.0455Z"
-                                    fill="white" />
-                            </mask>
-                            <g mask="url(#mask3_8_831)">
-                                <path d="M28.6492 28.2273L9.62642 13.5L7.17188 11.6591L28.6492 5.52271V28.2273Z"
-                                    fill="#4285F4" />
-                            </g>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_8_831">
-                                <rect width="27" height="27" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </div>
-                Continue with Google
-            </button>
+      <div class="new-register">
+        <div>
+          <p>New to Headway?</p>
         </div>
-
-        <div class="new-register">
-            <div>
-                <p>New to Headway?</p>
-            </div>
-            <div>
-                <a href="register.html">Register now</a>
-            </div>
+        <div>
+          <a href="register.html">Register now</a>
         </div>
+      </div>
     </div>
-
-
-
-
-
-
-
-</body>
-
+  </body>
 </html>
