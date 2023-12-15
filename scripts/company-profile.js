@@ -1,8 +1,6 @@
-  // _____________________USED-TO-CHANGE-THE-PAGES________________________________________
+// PAGE-CAHNGING-EFFECT
 
-
-
-  function activateLink(link) {
+function activateLink(link) {
     var links = document.querySelectorAll('.dash-nav-items a');
     links.forEach(function (item) {
         item.classList.remove('active');
@@ -22,7 +20,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll('.dash-nav-items a');
-    activateLink(links[0]);
+    activateLink(links[1]);
 
     links.forEach(function (link) {
         link.addEventListener('click', function (event) {
@@ -31,5 +29,3 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
-
-  

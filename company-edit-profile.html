@@ -12,9 +12,10 @@
     <link rel="stylesheet" href="style/company-dashboard.css">
     <link rel="stylesheet" href="mob-style/company-dashboard.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <script src="scripts/company-mob-nav.js"></script>
+    <script src="scripts/company-edit-profile.js"></script>
 </head>
-<script src="scripts/company-dashboard.js"></script>
+
 <body>
 
 <!-- ___________________________________NAVIGATION_________________________________________________ -->
@@ -170,38 +171,19 @@
             </div>
         </div>
 
-        <!---------------------------- temp javascript for page changing ------------------------------- -->
-        <script>
-            function activateLink(link) {
-                var links = document.querySelectorAll('.dash-nav-items a');
-                links.forEach(function (item) {
-                    item.classList.remove('active');
-                });
-                link.classList.add('active');
+<!-- _________________________________POPUP-PROFILE-UPDATED__________________________ -->
 
-                var paths = document.querySelectorAll('.dash-nav-items a svg path');
-                paths.forEach(function (path) {
-                    path.style.stroke = '';
-                });
-
-                var activePath = link.querySelector('svg path');
-                activePath.style.stroke = '#004E92';
-            }
-
-
-            document.addEventListener("DOMContentLoaded", function () {
-                var links = document.querySelectorAll('.dash-nav-items a');
-                activateLink(links[1]);
-
-                links.forEach(function (link) {
-                    link.addEventListener('click', function (event) {
-                        // event.preventDefault();
-                        activateLink(link);
-                    });
-                });
-            });
-
-        </script>
+<div class="popup-container">
+<div class="popup-inner">
+<div class="popup-img">
+    <img src="./img-and-svg/tick.svg">
+</div>
+<div class="popup-content">
+    <h1>Profile Updated</h1>
+    <h5>You will be automatically Redirected to the Profile Section</h5>
+</div>
+</div>
+</div>
 
 
 </body>

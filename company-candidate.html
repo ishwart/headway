@@ -16,7 +16,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="./scripts/company-dashboard.js"></script>
+
+    <script src="scripts/company-mob-nav.js"></script>
   </head>
   <body>
     <div id="navigationContainer" class="navigation-main-container">
@@ -243,38 +244,22 @@
           </div>
         </div>
       </div>
-      <div class="shortlist-container"></div>
     </div>
 
-    <!---------------------------- temp javascript for page changing ------------------------------- -->
-    <script>
-      function activateLink(link) {
-        var links = document.querySelectorAll(".dash-nav-items a");
-        links.forEach(function (item) {
-          item.classList.remove("active");
-        });
-        link.classList.add("active");
-
-        var paths = document.querySelectorAll(".dash-nav-items a svg path");
-        paths.forEach(function (path) {
-          path.style.stroke = "";
-        });
-
-        var activePath = link.querySelector("svg path");
-        activePath.style.stroke = "#004E92";
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        var links = document.querySelectorAll(".dash-nav-items a");
-        activateLink(links[1]);
-
-        links.forEach(function (link) {
-          link.addEventListener("click", function (event) {
-            // event.preventDefault();
-            activateLink(link);
-          });
-        });
-      });
-    </script>
+    <!-- __________________________POPUP-WINDOW_________________________________ -->
+    <div id="popup-window">
+      <div id="popup-container" class="popup-inner">
+        <label for="popup-textbox">Select the Job Profile</label>
+        <select id="popup-textbox">
+          <option>apple</option>
+          <option>mango</option>
+        </select>
+        <div id="popup-button">
+          <button>Cancel</button>
+          <button>Finish</button>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/company-candidates.js"></script>
   </body>
 </html>
